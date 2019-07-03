@@ -1,7 +1,8 @@
 ﻿window.addEventListener("load", function(){
 	var handle=document.querySelector(".handle");
 	var picture=document.querySelector(".picture ul");
-	var requestURL="../data/img_path.json";
+	//var requestURL="../data/img_path.json";
+	var requestURL="data/img_path.json";
 	var request=new XMLHttpRequest();
 	var appendHtml="";
 
